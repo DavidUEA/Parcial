@@ -1,4 +1,4 @@
-#Creamos clases que vamos  utilizar con cada uno de sus atributos
+#Creamos clases que vamos  utilizar con cada uno de sus atributos actual
 class Producto:
     def __init__(self, id_producto, nombre, cantidad, precio):
         self.id_producto = id_producto

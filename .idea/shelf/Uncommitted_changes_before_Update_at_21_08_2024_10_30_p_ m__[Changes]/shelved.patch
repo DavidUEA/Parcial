@@ -1,0 +1,165 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7c93e77d-a659-4ae2-adaa-4d830c0806d4\" name=\"Changes\" comment=\"Semana_9\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2kmg8wPwIAX0E3PBiRofNrj4vmU\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.TIENDA.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/USER/PycharmProjects\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"ChangesTree.GroupingKeys\": [\r\n      \"directory\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7c93e77d-a659-4ae2-adaa-4d830c0806d4\" name=\"Changes\" comment=\"\" />\r\n      <created>1723894009552</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1723894009552</updated>\r\n      <workItem from=\"1723894012341\" duration=\"7362000\" />\r\n      <workItem from=\"1724292428114\" duration=\"354000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Semana_9\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724292440846</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724292440846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Semana_9\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724292554471</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724292554471</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Semana_9\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724292564069</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724292564069</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Semana_9\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724292597167</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724292597167</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Semana_9\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724292645567</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724292645567</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Semana_9.\" />\r\n    <MESSAGE value=\"Semana_9\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Semana_9\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/pythonProject3$TIENDA.coverage\" NAME=\"TIENDA Coverage Results\" MODIFIED=\"1724031032770\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/SEMANA_9\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f29b0cd83256018622cfbbb35295c96cb8163606)
++++ b/.idea/workspace.xml	(date 1724297382305)
+@@ -4,7 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="Semana_9" />
++    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="Semana_9">
++      <change afterPath="$PROJECT_DIR$/SEMANA_10/Inventario_mejorado.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -36,7 +39,7 @@
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "git-widget-placeholder": "master",
+-    "last_opened_file_path": "C:/Users/USER/PycharmProjects",
++    "last_opened_file_path": "C:/Users/USER/PycharmProjects/pythonProject3",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -46,7 +49,6 @@
+   },
+   "keyToStringList": {
+     "ChangesTree.GroupingKeys": [
+-      "directory"
+     ]
+   }
+ }]]></component>
+@@ -108,7 +110,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1724292645567</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="Semana_9">
++      <option name="closed" value="true" />
++      <created>1724296643340</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1724296643340</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -132,5 +142,6 @@
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/pythonProject3$TIENDA.coverage" NAME="TIENDA Coverage Results" MODIFIED="1724031032770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_9" />
++    <SUITE FILE_PATH="coverage/Parcial_2$TIENDA.coverage" NAME="TIENDA Coverage Results" MODIFIED="1724296583466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_9" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: SEMANA_10/Inventario_mejorado.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SEMANA_10/Inventario_mejorado.py b/SEMANA_10/Inventario_mejorado.py
+new file mode 100644
+--- /dev/null	(date 1724297373982)
++++ b/SEMANA_10/Inventario_mejorado.py	(date 1724297373982)
+@@ -0,0 +1,91 @@
++#Creamos clases que vamos  utilizar con cada uno de sus atributos
++class Producto:
++    def __init__(self, id_producto, nombre, cantidad, precio):
++        self.id= id
++        self.nombre = nombre
++        self.cantidad = cantidad
++        self.precio = precio
++#creamos la clases  para llamar a cada una de los atributos
++    def __str__(self):
++        return f" {self.id} {self.nombre} {self.cantidad} {self.precio}"
++
++#creamos una lista
++class Inventario:
++    def __init__(self):
++        self.productos = []
++
++    def agregar_producto(self, producto):
++        self.productos.append(producto)
++        print(f"Producto Agregado correctamente")
++
++    def eliminar_producto(self, id_producto):
++        if id_producto in self.productos:
++            del self.productos[id_producto]
++        else:
++            print("Error: Producto no encontrado.")
++
++    def actualizar_precio(self, id, precio):
++        for producto in self.productos:
++            if producto.id == id:
++                producto.precio = precio
++                print(f"Producto actualizado exitosamente")
++
++    def buscar_producto_nombre(self, nombre):
++        for producto in self.productos:
++            if producto.nombre == nombre:
++                return producto
++
++    def mostrar_inventario(self):
++        for producto in self.productos:
++            print(producto)
++
++mi_inventario = Inventario()
++
++def Menu():
++    while True:
++        print("Menu")
++        print("1. Agregar Producto")
++        print("2. Eliminar Producto")
++        print("3. Actualizar Producto")
++        print("4. Buscar Producto")
++        print("5. Mostrar inventario")
++        print("6. Salir")
++
++        opcion = int(input("Seleccione una opcion: "))
++
++        if opcion == 1:
++            id = int(input("Ingrese el ID del producto: "))
++            nombre = input("Ingrese el nombre del producto: ")
++            precio = float(input("Ingrese el precio del producto: "))
++
++            mi_inventario.agregar_producto(Producto(id, nombre, precio, id))
++
++        elif opcion == 2:
++            id = int(input("Ingrese el ID del producto a eliminar: "))
++            mi_inventario.eliminar_producto(id)
++            print("El producto ha sido eliminado")
++
++        elif opcion == 3:
++            print("\nActualizar ")
++            id = int(input("Ingrese el ID del producto a actualizar: "))
++            precio = float(input("Ingrese precio del producto: "))
++            mi_inventario.actualizar_precio(id, precio)
++            print("Precio actualizado")
++
++        elif opcion == 4:
++            print("\nBuscar Nombre")
++            nombre = input("Ingrese el nombre del producto: ")
++            producto = mi_inventario.buscar_producto_nombre(nombre)
++            print("nombre buscado")
++            print(producto.id, producto.nombre, producto.precio)
++
++        elif opcion == 5:
++            print("\nInventario")
++            mi_inventario.mostrar_inventario()
++
++        elif opcion == 6:
++            break
++
++if __name__ == "__main__":
++    Menu()
++
