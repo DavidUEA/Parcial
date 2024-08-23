@@ -20,7 +20,7 @@ class Inventario:
         with open("inventario.txt", "r") as file:
             for line in file:
                 id, nombre, cantidad, precio = line.strip().split(",")
-                self.productos.append(Producto(id, nombre, cantidad, float(precio))
+                self.productos.append(Producto(id, nombre, cantidad, float(precio)))
 
     def guardar_inventario(self):
         with open("inventario.txt", "a") as file:
