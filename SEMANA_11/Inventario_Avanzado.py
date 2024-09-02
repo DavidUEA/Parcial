@@ -110,8 +110,11 @@ def Menu():
             print("\nBuscar Nombre")
             nombre = input("Ingrese el nombre del producto: ")
             producto = mi_inventario.buscar_producto_nombre(nombre)
-            print("nombre buscado")
-            print(producto.id, producto.nombre, producto.precio)
+            if producto is not None:
+                print(f"ID: {producto.id}, nombre: {producto.nombre}")
+            else:
+                print("nombre no encontrado")
+
 
         elif opcion == 5:
             print("\nInventario")
