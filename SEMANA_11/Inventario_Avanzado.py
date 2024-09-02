@@ -26,7 +26,7 @@ class Inventario:
                 with open ("mejorado1.txt", "w") as file:
                     file.write("id, nombre, cantidad, precio\n")
             else:
-                with open ("mejorado1.txt", "r") as file:
+                with open ("mejorado1.txt", "r", encoding= "utf-8") as file:
                  for line in file:
                     id, nombre, cantidad, precio = line.strip().split (",")
                     self.productos[id] = Producto(id, nombre, cantidad, precio)
@@ -34,7 +34,7 @@ class Inventario:
             print(" Inventario no encontrado")
 
     def guardar_inventario(self):
-        with open ("mejorado1.txt", "w") as file:
+        with open ("mejorado1.txt", "w",encoding="utf-8") as file:
             for producto in self.productos.values():
                 file.write (f"{producto.id}, {producto.nombre}, {producto.cantidad},{producto.precio}\n")
 

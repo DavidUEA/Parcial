@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/SEMANA_11/Inventario_Avanzado.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEMANA_10/Inventario_mejorado.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEMANA_10/inventario.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +73,7 @@
       <workItem from="1724369476282" duration="4260000" />
       <workItem from="1724373759126" duration="828000" />
       <workItem from="1724467515990" duration="2532000" />
-      <workItem from="1725230184745" duration="6214000" />
+      <workItem from="1725230184745" duration="6669000" />
     </task>
     <task id="LOCAL-00001" summary="Semana_9">
       <option name="closed" value="true" />
@@ -192,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724471012605</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1725245122301</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725245122301</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +218,7 @@
     <MESSAGE value="Semana_10" />
     <MESSAGE value="&#10;#&#9;SEMANA_10/Inventario_mejorado.py" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_10/Inventario_mejorado.py" />
+    <MESSAGE value="Semana 11" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
@@ -223,6 +227,6 @@
     <SUITE FILE_PATH="coverage/Parcial_2$Mejorado_2.coverage" NAME="Mejorado 2 Coverage Results" MODIFIED="1725232733119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_10" />
     <SUITE FILE_PATH="coverage/Parcial_2$TIENDA.coverage" NAME="TIENDA Coverage Results" MODIFIED="1724298276951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_9" />
     <SUITE FILE_PATH="coverage/Parcial_2$Inventario_mejorado.coverage" NAME="Inventario_mejorado Coverage Results" MODIFIED="1724470051557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_10" />
-    <SUITE FILE_PATH="coverage/Parcial_2$Inventario_Avanzado.coverage" NAME="Inventario_Avanzado Coverage Results" MODIFIED="1725244993798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_11" />
+    <SUITE FILE_PATH="coverage/Parcial_2$Inventario_Avanzado.coverage" NAME="Inventario_Avanzado Coverage Results" MODIFIED="1725245414465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_11" />
   </component>
 </project>
