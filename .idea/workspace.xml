@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py" />
+    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,9 +76,7 @@
       <workItem from="1724467515990" duration="2532000" />
       <workItem from="1725230184745" duration="6880000" />
       <workItem from="1725245760953" duration="219000" />
-      <workItem from="1725596971879" duration="6004000" />
-      <workItem from="1725688882730" duration="5647000" />
-      <workItem from="1725745224862" duration="6519000" />
+      <workItem from="1725596971879" duration="5872000" />
     </task>
     <task id="LOCAL-00001" summary="Semana_9">
       <option name="closed" value="true" />
@@ -224,39 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725245949669</updated>
     </task>
-    <task id="LOCAL-00019" summary="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py">
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py">
       <option name="closed" value="true" />
-      <created>1725603535713</created>
+      <created>1725756506396</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1725603535713</updated>
+      <updated>1725756506396</updated>
     </task>
-    <task id="LOCAL-00020" summary="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py">
-      <option name="closed" value="true" />
-      <created>1725694948452</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1725694948452</updated>
-    </task>
-    <task id="LOCAL-00021" summary="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py">
-      <option name="closed" value="true" />
-      <created>1725756373526</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1725756373526</updated>
-    </task>
-    <task id="LOCAL-00022" summary="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py">
-      <option name="closed" value="true" />
-      <created>1725756380685</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1725756380685</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,22 +256,17 @@
     <MESSAGE value="Semana 11" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py" />
     <MESSAGE value="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SEMANA_12/Biblioteca.py</url>
-          <line>96</line>
+          <line>88</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SEMANA_12/Biblioteca.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
