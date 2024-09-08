@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py" />
+    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py">
+      <change afterPath="$PROJECT_DIR$/SEMANA_12/Biblioteca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,30 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Biblioteca.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Inventario_Avanzado.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Inventario_mejorado.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mejorado 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TIENDA.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Biblioteca.executor": "Run",
+    "Python.Inventario_Avanzado.executor": "Run",
+    "Python.Inventario_mejorado.executor": "Run",
+    "Python.Mejorado 2.executor": "Run",
+    "Python.TIENDA.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/USER/PycharmProjects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,9 +79,7 @@
       <workItem from="1724467515990" duration="2532000" />
       <workItem from="1725230184745" duration="6880000" />
       <workItem from="1725245760953" duration="219000" />
-      <workItem from="1725596971879" duration="6004000" />
-      <workItem from="1725688882730" duration="5647000" />
-      <workItem from="1725745224862" duration="6519000" />
+      <workItem from="1725596971879" duration="5872000" />
     </task>
     <task id="LOCAL-00001" summary="Semana_9">
       <option name="closed" value="true" />
@@ -224,39 +225,7 @@
       <option name="project" value="LOCAL" />
       <updated>1725245949669</updated>
     </task>
-    <task id="LOCAL-00019" summary="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py">
-      <option name="closed" value="true" />
-      <created>1725603535713</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1725603535713</updated>
-    </task>
-    <task id="LOCAL-00020" summary="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py">
-      <option name="closed" value="true" />
-      <created>1725694948452</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1725694948452</updated>
-    </task>
-    <task id="LOCAL-00021" summary="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py">
-      <option name="closed" value="true" />
-      <created>1725756373526</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1725756373526</updated>
-    </task>
-    <task id="LOCAL-00022" summary="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py">
-      <option name="closed" value="true" />
-      <created>1725756380685</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1725756380685</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,21 +252,15 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py" />
-    <MESSAGE value="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;#&#9;SEMANA_12/Biblioteca.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;SEMANA_11/Inventario_Avanzado.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SEMANA_12/Biblioteca.py</url>
-          <line>96</line>
+          <line>88</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SEMANA_12/Biblioteca.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -307,7 +270,7 @@
     <SUITE FILE_PATH="coverage/Parcial_2$Mejorado_2.coverage" NAME="Mejorado 2 Coverage Results" MODIFIED="1725232733119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_10" />
     <SUITE FILE_PATH="coverage/Parcial_2$TIENDA.coverage" NAME="TIENDA Coverage Results" MODIFIED="1724298276951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_9" />
     <SUITE FILE_PATH="coverage/Parcial_2$Inventario_mejorado.coverage" NAME="Inventario_mejorado Coverage Results" MODIFIED="1724470051557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_10" />
-    <SUITE FILE_PATH="coverage/Parcial_2$Inventario_Avanzado.coverage" NAME="Inventario_Avanzado Coverage Results" MODIFIED="1725751204148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_11" />
-    <SUITE FILE_PATH="coverage/Parcial_2$Biblioteca.coverage" NAME="Biblioteca Coverage Results" MODIFIED="1725756184965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_12" />
+    <SUITE FILE_PATH="coverage/Parcial_2$Inventario_Avanzado.coverage" NAME="Inventario_Avanzado Coverage Results" MODIFIED="1725245898944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_11" />
+    <SUITE FILE_PATH="coverage/Parcial_2$Biblioteca.coverage" NAME="Biblioteca Coverage Results" MODIFIED="1725603140280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_12" />
   </component>
 </project>
