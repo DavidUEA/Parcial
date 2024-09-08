@@ -47,7 +47,7 @@ class Biblioteca:
             print(f"El usuario {usuario.id} ha sido agregado")
 
     def dar_baja_usuario(self, id):
-        if id in self.ids:
+        if usuario.id in self.ids:
             del self.usuarios[id]
             print(f"El usuario {id} si existe")
         else:
@@ -94,10 +94,10 @@ def Menu():
         opcion = int(input("Seleccione una opcion: "))
 
         if opcion == 1:
-            titulo = input("Ingrese el ISBN del libro: ")
-            autor = input("Ingrese el titulo del libro: ")
-            categoria = input("Ingresa el autor del libro: ")
-            isbn = input("Ingrese la categoria del libro: ")
+            titulo = input ("Ingrese el ISBN del libro: ")
+            autor = input ("Ingrese el titulo del libro: ")
+            categoria = input ("Ingresa el autor del libro: ")
+            isbn = input ("Ingrese la categoria del libro: ")
             libro = Libro(titulo, autor, categoria, isbn)
             mi_biblioteca.agregar_libro(libro)
             print(libro)
@@ -107,17 +107,16 @@ def Menu():
             isbn = input("Ingrese el ISBN del libro: ")
             mi_biblioteca.quitar_libro(isbn)
             print(isbn)
-            print("El producto ha sido eliminado ")
+
 
         elif opcion == 3:
             id = int(input("Ingrese el id del Usuario: "))
             nombre = input("Ingrese el nombre del usuario: ")
-            print(id, nombre)
             print(f"---El usuario con ID: {id} de nombres {nombre} ha sido agregado---")
 
 
         elif opcion == 4:
-            id = input("Ingrese el ISBN del libro: ")
+            id = input("Ingrese el id del usuario a eliminar: ")
             mi_biblioteca.dar_baja_usuario(id)
             print(id)
             print("El producto ha sido eliminado ")
@@ -155,5 +154,3 @@ def Menu():
 
 if __name__ == "__main__":
     Menu()
-
-
