@@ -39,7 +39,7 @@ class Biblioteca:
 
 
     def agregar_usuario(self, usuario):
-        if usuario.isbn in self.usuarios:
+        if usuario.id in self.lista_usuarios:
             print(f"El usuario {usuario.id} ya existe")
         else:
             self.usuarios[usuario.id] = usuario
@@ -94,10 +94,10 @@ def Menu():
         opcion = int(input("Seleccione una opcion: "))
 
         if opcion == 1:
-            titulo = input("Ingrese el Titulo del libro: ")
-            autor = input("Ingrese el nombre del autor: ")
-            categoria = input("Ingresa la categoria del libro: ")
-            isbn = input("Ingrese el ISBN del libro: ")
+            titulo = input("Ingrese el ISBN del libro: ")
+            autor = input("Ingrese el titulo del libro: ")
+            categoria= input("Ingresa el autor del libro: ")
+            isbn= input("Ingrese la categoria del libro: ")
             libro = Libro(titulo, autor, categoria, isbn)
             mi_biblioteca.agregar_libro(libro)
             print(libro)
@@ -110,24 +110,26 @@ def Menu():
             print("El producto ha sido eliminado ")
 
         elif opcion == 3:
-            isbn = int(input("Ingrese el id del Usuario: "))
-            print(isbn)
-            print("---El usuario  ha sido agregado---")
-
-
+            id = int(input("Ingrese el id del Usuario: "))
+            nombre = input("Ingrese el nombre del usuario: ")
+            print(id, nombre)
+            print(f"---El usuario con ID: {id} de nombres {nombre} ha sido agregado---")
 
 
         elif opcion == 4:
-            isbn = input("Ingrese el ISBN del usuario: ")
-            mi_biblioteca.quitar_libro(isbn)
-            print(isbn)
+            id = input("Ingrese el ISBN del libro: ")
+            mi_biblioteca.dar_baja_usuario(id)
+            print(id)
             print("El producto ha sido eliminado ")
 
         elif opcion == 5:
-            isbn = input("Ingrese el ISBN del libro: ")
-            mi_biblioteca.quitar_libro(isbn)
-            print(isbn)
-            print("El producto ha sido eliminado ")
+            id = input("Ingrese el id del usuario para registrar el prestamo: ")
+            isbn = input("Ingrese el ISBN del libro a prestar: ")
+            usuario = usuario(id,isbn)
+            mi_biblioteca.prestar_libro(id,isbn)
+            print(usuario)
+            print(f"El libro {isbn} ha sido prestado a {id}")
+
 
         elif opcion == 6:
             print ("\nBuscar libro")
