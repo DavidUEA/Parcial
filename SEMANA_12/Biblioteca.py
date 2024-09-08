@@ -94,10 +94,10 @@ def Menu():
         opcion = int(input("Seleccione una opcion: "))
 
         if opcion == 1:
-            titulo = input("Ingrese el ISBN del libro: ")
-            autor = input("Ingrese el titulo del libro: ")
-            categoria = input("Ingresa el autor del libro: ")
-            isbn = input("Ingrese la categoria del libro: ")
+            titulo = input ("Ingrese el ISBN del libro: ")
+            autor = input ("Ingrese el titulo del libro: ")
+            categoria = input ("Ingresa el autor del libro: ")
+            isbn = input ("Ingrese la categoria del libro: ")
             libro = Libro(titulo, autor, categoria, isbn)
             mi_biblioteca.agregar_libro(libro)
             print(libro)
