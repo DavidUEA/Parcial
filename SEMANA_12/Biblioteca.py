@@ -56,7 +56,7 @@ class Biblioteca:
 
     def prestar_libro(self, id, isbn):
         if id not in self.usuarios:
-            print(f"El {id} No existe")
+            print(f"El usuario {id} No existe")
         elif isbn not in self.libros:
             print(f"El libro {isbn} no existe")
         else:
@@ -87,9 +87,10 @@ def Menu():
         print("3. Agregar usuario")
         print("4. Dar de baja a usuario")
         print("5. Prestar libro")
-        print("6. Buscar libro")
-        print ("7. Lista libros prestados")
-        print("8. Salir")
+        print ("6. devolver libro")
+        print("7. Buscar libro")
+        print ("8. Lista libros prestados")
+        print("9. Salir")
 
         opcion = int(input("Seleccione una opcion: "))
 
@@ -114,23 +115,27 @@ def Menu():
             nombre = input("Ingrese el nombre del usuario: ")
             usuario = Usuario(id, nombre)
             mi_biblioteca.agregar_usuario(usuario)
-            print(f"---El usuario con ID: {id} de nombres {nombre} ha sido agregado---")
+
 
 
         elif opcion == 4:
             id = input("Ingrese el id del usuario a eliminar: ")
             print(id)
-            print(f"El usuario de nombres :  {nombre}, ha sido eliminado ")
+            mi_biblioteca.dar_baja_usuario(id)
 
 
         elif opcion == 5:
             id = int(input("Ingrese el id del usuario para registrar el prestamo: "))
             isbn = input("Ingrese el ISBN del libro a prestar: ")
-            mi_biblioteca.prestar_libro(id, isbn)
-
-
+            print (f"se ha prestado al usuario: {id}, el libro de codigo: {isbn} ")
 
         elif opcion == 6:
+            id = int(input("Ingrese el id del usuario para registrar el prestamo: "))
+            isbn = input("Ingrese el ISBN del libro a prestar: ")
+            print (f"se ha prestado al usuario: {id}, el libro de codigo: {isbn} ")
+
+
+        elif opcion == 7:
             print ("\nBuscar libro")
             nombre = input ("Ingrese el titulo del libro : ")
             mi_biblioteca.buscar_libro_nombre (nombre)
@@ -140,12 +145,12 @@ def Menu():
                 print ("nombre no encontrado")
 
 
-        elif opcion == 7:
+        elif opcion == 8:
             mi_biblioteca.listar_libros_prestados("1")
             print(mi_biblioteca)
 
 
-        elif opcion == 8:
+        elif opcion == 9:
             break
 
 if __name__ == "__main__":
