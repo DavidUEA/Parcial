@@ -39,15 +39,15 @@ class Biblioteca:
 
 
     def agregar_usuario(self, usuario):
-        if usuario.id in self.lista_usuarios:
+        if usuario.id in self.usuarios:
             print(f"El usuario {usuario.id} ya existe")
         else:
             self.usuarios[usuario.id] = usuario
-            self.id.add(usuario.id)
+            self.ids.add(usuario.id)
             print(f"El usuario {usuario.id} ha sido agregado")
 
     def dar_baja_usuario(self, id):
-        if usuario.id in self.ids:
+        if id in self.ids:
             del self.usuarios[id]
             print(f"El usuario {id} si existe")
         else:
@@ -112,14 +112,15 @@ def Menu():
         elif opcion == 3:
             id = int(input("Ingrese el id del Usuario: "))
             nombre = input("Ingrese el nombre del usuario: ")
+            usuario = Usuario(id, nombre)
+            mi_biblioteca.agregar_usuario(usuario)
             print(f"---El usuario con ID: {id} de nombres {nombre} ha sido agregado---")
 
 
         elif opcion == 4:
             id = input("Ingrese el id del usuario a eliminar: ")
-            mi_biblioteca.dar_baja_usuario(id)
             print(id)
-            print("El producto ha sido eliminado ")
+            print(f"El usuario de nombres :  {nombre}, ha sido eliminado ")
 
         elif opcion == 5:
             id = input("Ingrese el id del usuario para registrar el prestamo: ")
