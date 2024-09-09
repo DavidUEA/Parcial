@@ -47,18 +47,12 @@ class Biblioteca:
             print(f"El usuario {usuario.id} ha sido agregado")
 
     def dar_baja_usuario(self, id):
+
         if id in self.ids:
             del self.usuarios[id]
             print(f"El usuario {id} si existe")
         else:
             print(f"El usuario {id} no existe")
-
-    def buscar_libro_nombre(self, titulo):
-       if titulo in self.libros:
-           return self.libros[titulo]
-       else:
-            return None
-
 
     def prestar_libro(self, id, isbn):
         if id not in self.usuarios:
@@ -78,6 +72,12 @@ class Biblioteca:
                 print(f"El libro fue prestado al usuario {usuario.titulo}")
                 for libro in usuario.libros_prestados:
                     print(libro)
+
+    def buscar_libro_nombre(self, titulo):
+       if titulo in self.libros:
+           return self.libros[titulo]
+       else:
+            return None
 def Menu():
     mi_biblioteca = Biblioteca()
     while True:
@@ -122,19 +122,18 @@ def Menu():
             print(id)
             print(f"El usuario de nombres :  {nombre}, ha sido eliminado ")
 
+
         elif opcion == 5:
-            id = input("Ingrese el id del usuario para registrar el prestamo: ")
+            id = int(input("Ingrese el id del usuario para registrar el prestamo: "))
             isbn = input("Ingrese el ISBN del libro a prestar: ")
-            usuario = usuario(id,isbn)
-            mi_biblioteca.prestar_libro(id,isbn)
-            print(usuario)
-            print(f"El libro {isbn} ha sido prestado a {id}")
+            mi_biblioteca.prestar_libro(id, isbn)
+
 
 
         elif opcion == 6:
             print ("\nBuscar libro")
             nombre = input ("Ingrese el titulo del libro : ")
-            nombre = mi_biblioteca.buscar_libro_nombre (nombre)
+            mi_biblioteca.buscar_libro_nombre (nombre)
             if nombre is not None:
                 print (f"ISBN: {libro.isbn}, nombre del autor: {libro.titulo} ")
             else:
@@ -145,10 +144,6 @@ def Menu():
             mi_biblioteca.listar_libros_prestados("1")
             print(mi_biblioteca)
 
-
-        elif opcion == 5:
-            print("\nInventario")
-            mi_biblioteca.mostrar_biblioteca()
 
         elif opcion == 8:
             break
