@@ -31,15 +31,15 @@ def Llamar():
 tk.Button(app,
     text="Agregar informacion",
     font=("Courier", 14),
-    bg="#00a8e8",
-    fg="White",
+    bg="red",
+    fg="red",
     width=10,
     height= 2,
     command=Llamar
 
 ).pack(
     fill=tk.BOTH,
-    expand=False
+
 )
 
 tk.Entry(
