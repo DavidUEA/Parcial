@@ -70,7 +70,6 @@ salir_btn.grid(row=5, column=0, sticky="we")
 
 
 
-
 def eliminar_evento():
     # Obtener el elemento seleccionado en la TreeView
     item_seleccionado = tree.selection()
