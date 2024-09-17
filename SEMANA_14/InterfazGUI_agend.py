@@ -6,6 +6,7 @@ from tkinter import ttk
 
 ventana = tk.Tk()
 ventana.title("Mi Agenda Personal")
+ventana.configure(background='sky blue')
 
 # Frame para la lista de eventos
 frame_lista = ttk.Frame(ventana)
@@ -66,7 +67,6 @@ agregar_btn.grid(row=3, column=0, sticky="we")
 eliminar_btn.grid(row=4, column=0, sticky="we")
 salir_btn.grid(row=5, column=0, sticky="we")
 
-eventos = {}
 
 
 
