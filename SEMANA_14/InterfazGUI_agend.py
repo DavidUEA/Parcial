@@ -6,11 +6,10 @@ from tkinter import ttk
 
 ventana = tk.Tk()
 ventana.title("Mi Agenda Personal")
-ventana.configure(background='sky blue')
 
 # Frame para la lista de eventos
 frame_lista = ttk.Frame(ventana)
-frame_lista.pack(side="left", padx=50, pady=50)
+frame_lista.pack(side="left", padx=10, pady=10)
 
 # Frame para los campos de entrada y botones
 frame_entradas = ttk.Frame(ventana)
@@ -50,12 +49,14 @@ def eliminar_evento():
     # Mostrar un diálogo de confirmación
     if messagebox.askyesno("Confirmar", "¿Estás seguro de eliminar este evento?"):
         # Eliminar el evento de la lista (implementar la lógica de eliminación)
+        # ...
         # Eliminar el elemento de la TreeView
         tree.delete(item_seleccionado)
 
 agregar_btn = ttk.Button(frame_entradas, text="Agregar Evento", command= agregar_evento)
 eliminar_btn = ttk.Button(frame_entradas, text="Eliminar Evento", command= eliminar_evento)
 salir_btn = ttk.Button(frame_entradas, text="Salir", command=ventana.quit)
+
 
 
 fecha_entry.grid(row=0, column=0, sticky="we")
@@ -65,6 +66,7 @@ agregar_btn.grid(row=3, column=0, sticky="we")
 eliminar_btn.grid(row=4, column=0, sticky="we")
 salir_btn.grid(row=5, column=0, sticky="we")
 
+eventos = {}
 
 
 
