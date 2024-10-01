@@ -39,7 +39,8 @@ class TaskManager:
             messagebox.showwarning("Advertencia", message="No se puede agregar tu tarea vacia")
 
 
-    def update_task_listbox(self):
+    def update_task_(self,listbox):
+        listbox(self):
         self.task_listbox.delete(0, tk.END)
         for task in self.tasks:
             self.task_listbox.insert(tk.END, task)
