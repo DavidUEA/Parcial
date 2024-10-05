@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/SEMANA_16/Atajos_teclado.py" afterDir="false" />
+    <list default="true" id="7c93e77d-a659-4ae2-adaa-4d830c0806d4" name="Changes" comment="SEMANA_16">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEMANA_15/Lista_tareas.py" beforeDir="false" afterPath="$PROJECT_DIR$/SEMANA_15/Lista_tareas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMANA_16/Atajos_teclado.py" beforeDir="false" afterPath="$PROJECT_DIR$/SEMANA_16/Atajos_teclado.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,37 +33,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Atajos_teclado.executor": "Run",
-    "Python.Biblioteca.executor": "Run",
-    "Python.InterfazGUI14.executor": "Run",
-    "Python.InterfazGUI_agend.executor": "Run",
-    "Python.Interfaz_GUI.executor": "Run",
-    "Python.Inventario_Avanzado.executor": "Run",
-    "Python.Inventario_mejorado.executor": "Run",
-    "Python.Lista_tareas.executor": "Run",
-    "Python.Mejorado 2.executor": "Run",
-    "Python.NUEVO.executor": "Run",
-    "Python.TIENDA.executor": "Run",
-    "Python.pruebas.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/USER/PycharmProjects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Atajos_teclado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Biblioteca.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InterfazGUI14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InterfazGUI_agend.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Interfaz_GUI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inventario_Avanzado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inventario_mejorado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lista_tareas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mejorado 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NUEVO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TIENDA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pruebas.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\Parcial_2" />
@@ -100,7 +99,9 @@
       <workItem from="1726536124897" duration="8003000" />
       <workItem from="1727568430906" duration="703000" />
       <workItem from="1727761236773" duration="4522000" />
-      <workItem from="1728089987443" duration="6817000" />
+      <workItem from="1728089987443" duration="7069000" />
+      <workItem from="1728133727527" duration="2000" />
+      <workItem from="1728134589162" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Semana_9">
       <option name="closed" value="true" />
@@ -358,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727765709332</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="SEMANA_16">
+      <option name="closed" value="true" />
+      <created>1728099865100</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1728099865100</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +401,8 @@
     <MESSAGE value="SEMANA_14" />
     <MESSAGE value="SEMANA_15" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="SEMANA_16" />
+    <option name="LAST_COMMIT_MESSAGE" value="SEMANA_16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -413,7 +423,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Parcial_2$Mejorado_2.coverage" NAME="Mejorado 2 Coverage Results" MODIFIED="1725232733119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_10" />
     <SUITE FILE_PATH="coverage/Parcial_2$Interfaz_GUI.coverage" NAME="Interfaz_GUI Coverage Results" MODIFIED="1726546684488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_13" />
-    <SUITE FILE_PATH="coverage/Parcial_2$Atajos_teclado.coverage" NAME="Atajos_teclado Coverage Results" MODIFIED="1728099518386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_16" />
+    <SUITE FILE_PATH="coverage/Parcial_2$Atajos_teclado.coverage" NAME="Atajos_teclado Coverage Results" MODIFIED="1728099823094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_16" />
     <SUITE FILE_PATH="coverage/Parcial_2$Lista_tareas.coverage" NAME="Lista_tareas Coverage Results" MODIFIED="1728090469234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_15" />
     <SUITE FILE_PATH="coverage/Parcial_2$TIENDA.coverage" NAME="TIENDA Coverage Results" MODIFIED="1726009887167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_9" />
     <SUITE FILE_PATH="coverage/Parcial_2$Inventario_mejorado.coverage" NAME="Inventario_mejorado Coverage Results" MODIFIED="1724470051557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA_10" />

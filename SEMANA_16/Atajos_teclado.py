@@ -30,10 +30,11 @@ class TaskManager:
         self.delete_button.pack(pady=10)
 
         #Atajos del teclado
-        root.bind("<C>", lambda event: self.complete_task())
-        root.bind("<D>", lambda event: self.root)
-        root.bind("<Delete>", lambda event: self.root)
-        root.bind("Escape>", lambda event: self.root.quit())
+        self.root.bind("<Return>", lambda event: self.add_task())
+        self.root.bind("<C>", lambda event: self.complete_task())
+        self.root.bind("<D>", lambda event: self.delete_task())
+        self.root.bind("<Delete>", lambda event: self.root)
+        self.root.bind("Escape>", lambda event: self.root.quit())
 
 
     def add_task(self):
@@ -64,6 +65,15 @@ class TaskManager:
                 display_tak += " (completada) "
             self.List_box.insert(tk.END,display_tak)
 
+
+    def delete_task(self):
+        selected_task_index = self.List_box.curselection()
+        if selected_task_index:
+            index = selected_task_index[0]
+            del self.tasks[index]
+            self.update_task_listbox()
+        else:
+            messagebox.showerror("advetencia","no hay tarea seleccionada")
 
 
 if __name__ == "__main__":
